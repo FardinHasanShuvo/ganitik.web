@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800;900&family=Passion+One&display=swap");
 body {
   font-family: sans-serif;
   box-sizing: border-box;
@@ -47,7 +48,6 @@ body {
   color: #228a77;
 }
 .wrapper .container nav .logo .logo-icon .logotxt .logo-txt2 {
-  font-family: "charukola";
   color: white;
   position: relative;
   left: 140px;
@@ -96,4 +96,47 @@ body {
   -webkit-text-decoration: underline solid rgba(34, 138, 119, 0.3098039216);
           text-decoration: underline solid rgba(34, 138, 119, 0.3098039216);
   color: #228a77;
+}
+.wrapper .container .contents {
+  padding-top: 30px;
+  margin: 2em;
+}
+.wrapper .container .contents h1.title {
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  text-shadow: rgba(110, 197, 181, 0.4196078431) 1px 2px 8px;
+  color: white;
+  margin: 0%;
+  padding: 0%;
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: -5px;
+  word-spacing: -5px;
+}
+.wrapper .container .contents h1.title span {
+  margin: 0%;
+  margin-top: 10px;
+  padding: 0%;
+  padding-right: 14px;
+  color: white;
+  font-family: "Passion One";
+  letter-spacing: 1px;
+  justify-content: flex-start;
+  font-size: 90px;
+}
+.wrapper .container .contents p {
+  margin: 0px 20px;
+  padding-top: 10px;
+  margin-right: 40px;
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 22px;
+}
+.wrapper .container .contents p span {
+  color: white;
+  font-family: "Passion One";
+  letter-spacing: 1px;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */

@@ -288,8 +288,6 @@ body {
     color: white;
     font-size: 50px;
     font-weight: 900;
-    letter-spacing: -5px;
-    word-spacing: -5px;
   }
   .wrapper .contents h1.title span {
     margin: 0%;
@@ -328,8 +326,6 @@ body {
     color: white;
     font-size: 50px;
     font-weight: 900;
-    letter-spacing: -5px;
-    word-spacing: -5px;
   }
   .wrapper .contents .progs ul {
     display: flex;

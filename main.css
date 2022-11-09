@@ -326,8 +326,6 @@ body {
     color: white;
     font-size: 50px;
     font-weight: 900;
-    letter-spacing: 50px;
-    word-spacing: -5px;
   }
   .wrapper .contents .progs ul {
     display: flex;

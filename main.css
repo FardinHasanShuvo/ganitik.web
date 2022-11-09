@@ -59,42 +59,69 @@ body {
     opacity: 0.8;
   }
   .wrapper .container .navbar {
-    display: none;
+    display: flex;
     position: absolute;
-    margin: 40px;
-    right: -20px;
+    margin: 0px;
     top: -14px;
     align-items: flex-end;
+    right: 0%;
+    top: 0%;
   }
-  .wrapper .container .navbar #check {
+  .wrapper .container .navbar .items input#check {
     display: none;
   }
-  .wrapper .container .navbar .items ul.list {
+  .wrapper .container .navbar .items input#check:checked ~ ul {
+    transition: all 400ms;
+    transform: translateX(1);
+    left: 0%;
+  }
+  .wrapper .container .navbar .items label {
     display: flex;
-    position: relative;
-    justify-content: space-between;
+    margin: 13px 5px;
+    flex-direction: column;
+    position: absolute;
+    padding: 1em;
     right: 0%;
-    gap: 2em;
+    z-index: 999;
+  }
+  .wrapper .container .navbar .items label div {
+    margin: 3px;
+    border-radius: 100px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 2em;
+    box-shadow: rgba(245, 245, 245, 0.3137254902) 0px 0px 7px;
+  }
+  .wrapper .container .navbar .items ul.list {
+    margin: 0%;
+    background-color: #20272d;
+    border-bottom-left-radius: 30px;
+    box-shadow: #000000 2px 2px 10px;
+    display: flex;
+    padding: 50% 8em;
+    padding-right: 4em;
+    padding-top: 100px;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    left: 1000%;
+    gap: 5em;
   }
   .wrapper .container .navbar .items ul.list li {
     text-align: center;
     list-style: none;
     flex-wrap: wrap;
-    padding: 4px;
-    padding-right: 0%;
+    padding: 0%;
+    padding-right: 2em;
     margin-right: 0%;
   }
   .wrapper .container .navbar .items ul.list li a {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: #fff;
-  }
-  .wrapper .container .navbar .items ul.list li a:hover {
-    transition: all 500ms;
-    -webkit-text-decoration: underline solid rgba(34, 138, 119, 0.3098039216);
-            text-decoration: underline solid rgba(34, 138, 119, 0.3098039216);
-    color: #598b82;
+    color: #f5f5f5;
+    text-shadow: rgba(245, 245, 245, 0.3137254902) 0px 0px 2px;
   }
   .contents {
     margin: 0px 20px;

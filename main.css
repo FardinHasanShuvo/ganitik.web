@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Bashundhara52";
+  src: url(/ttf/Bashundhara52-Uni-Bold.ttf);
+}
+body {
+  font-family: "Bashundhara52", sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  padding: 0%;
+  background-color: #20272d;
+}
+
+.wrapper {
+  text-decoration: none;
+}
+.wrapper .container {
+  text-decoration: none;
+}
+.wrapper .container nav {
+  text-decoration: none;
+  display: flex;
+}
+.wrapper .container nav .logo .logo-icon {
+  text-decoration: none;
+  display: flex;
+  margin-left: 10px;
+}
+.wrapper .container nav .logo .logo-icon .logotxt {
+  margin: 0em 2em;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  margin: 0%;
+  padding: 0%;
+}
+.wrapper .container nav .logo .logo-icon .logotxt .logo-txt1 {
+  color: white;
+  position: relative;
+  left: 140px;
+  top: 15px;
+  padding: 0%;
+  -webkit-margin-before: 0%;
+          margin-block-start: 0%;
+  font-size: 60px;
+  text-align: center;
+}
+.wrapper .container nav .logo .logo-icon .logotxt .logo-txt1:hover {
+  transition: all 400ms;
+  color: #228a77;
+}
+.wrapper .container nav .logo .logo-icon .logotxt .logo-txt2 {
+  color: white;
+  position: relative;
+  left: 140px;
+  top: -59px;
+  margin: 0%;
+  padding: 0%;
+  -webkit-margin-before: 0%;
+          margin-block-start: 0%;
+  font-size: 16px;
+  text-align: center;
+}
+.wrapper .container nav .logo .logo-icon .logo-img {
+  height: 150px;
+}
+.wrapper .container nav .navbar {
+  display: flex;
+  position: absolute;
+  margin: 40px;
+  right: -20px;
+  top: -14px;
+  align-items: flex-end;
+}
+.wrapper .container nav .navbar .items ul.list {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  right: 0%;
+  gap: 2em;
+}
+.wrapper .container nav .navbar .items ul.list li {
+  text-align: center;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 4px;
+  padding-right: 0%;
+  margin-right: 0%;
+}
+.wrapper .container nav .navbar .items ul.list li a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+.wrapper .container nav .navbar .items ul.list li a:hover {
+  transition: all 500ms;
+  -webkit-text-decoration: underline solid rgba(34, 138, 119, 0.3098039216);
+          text-decoration: underline solid rgba(34, 138, 119, 0.3098039216);
+  color: #228a77;
+}/*# sourceMappingURL=main.css.map */

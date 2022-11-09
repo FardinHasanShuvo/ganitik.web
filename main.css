@@ -47,6 +47,7 @@ body {
   color: #228a77;
 }
 .wrapper .container nav .logo .logo-icon .logotxt .logo-txt2 {
+  font-family: "charukola";
   color: white;
   position: relative;
   left: 140px;

@@ -1,10 +1,5 @@
-@font-face {
-  font-family: "Bashundhara52";
-  src: url(/ttf/Bashundhara52-Uni-Bold.ttf);
-}
-
 body {
-  font-family: "Bashundhara52" , sans-serif;
+  font-family: sans-serif;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -37,7 +32,7 @@ body {
               color: white;
               position: relative;
               left: 140px;
-              top: 15px;
+              top: 19px;
               padding: 0%;
               margin-block-start: 0%;
               font-size: 60px;
@@ -51,11 +46,11 @@ body {
               color: white;
               position: relative;
               left: 140px;
-              top: -59px;
+              top: -44px;
               margin: 0%;
               padding: 0%;
               margin-block-start: 0%;
-              font-size: 16px;
+              font-size:15px;
               text-align: center;
             }
           }
